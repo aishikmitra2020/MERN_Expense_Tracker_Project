@@ -40,7 +40,7 @@ const Login = () => {
 
         <form onSubmit={handleLogin}>
         <Input
-          type="text"
+          type="email"
           value={email}
           onChange={({ target }) => setEmail(target.value)}
           label='Email Address'
